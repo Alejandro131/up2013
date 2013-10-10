@@ -56,15 +56,20 @@ cout << setprecision(3) << scientific << 98.7654321;  // -> 9.877e+001
 #### Примери ####
 
 ```c++
-cout << 340;  // -> Hundreds: 3
-              //    Tens: 4
-              //    Units: 0
+340
+// -> Hundreds: 3
+//    Tens: 4
+//    Units: 0
 
-cout << 424;  // -> Hundreds: 4
-              // -> Tens: 2
-              // -> Units: 4
+424
+// -> Hundreds: 4
+// -> Tens: 2
+// -> Units: 4
 
-cout << 579;  // -> Hundreds: 5
-              // -> Tens: 7
-              // -> Units: 9
+579
+// -> Hundreds: 5
+// -> Tens: 7
+// -> Units: 9
 ```
+
+### Задача 4 ###
