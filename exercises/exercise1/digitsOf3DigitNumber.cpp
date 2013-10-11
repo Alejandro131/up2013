@@ -7,7 +7,7 @@ int main()
     int number;
     int units, tens, hundreds;  // съответно 'единици', 'десетици' и 'стотици'
 
-    cout << "Enter an integer: ";
+    cout << "Enter a 3-digit integer: ";
     cin >> number;
 
     units = number % 10;

@@ -16,7 +16,7 @@ int main()
     b = a - b;
     a = a - b;
 
-    cout << "Now a=" << a << " and b=" << b << endl;
+    cout << endl << "Now a=" << a << " and b=" << b << '!' << endl;
 
     return 0;
 }

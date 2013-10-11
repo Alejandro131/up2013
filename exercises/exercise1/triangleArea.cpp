@@ -25,7 +25,7 @@ int main()
     area = sqrt(semiperimeter*(semiperimeter - a)*(semiperimeter - b)*
                 (semiperimeter - c));
 
-    cout << "The area of the triangle is: " << area << endl;
+    cout << endl << "The area of the triangle is: " << area << endl;
 
     return 0;
 }
