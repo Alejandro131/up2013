@@ -87,7 +87,7 @@ cout << setprecision(3) << scientific << 98.7654321;  // -> 9.877e+001
 
 ### Задача 5 ###
 
-Докажете чрез пример истинността на обясненото в [забележката на задача 3](https://github.com/gshopov/up2013/tree/master/exercises/exercise1#%D0%97%D0%B0%D0%B1%D0%B5%D0%BB%D0%B5%D0%B6%D0%BA%D0%B0).
+Докажете чрез пример истинността на обясненото в [забележката на задача 4](https://github.com/gshopov/up2013/tree/master/exercises/exercise1#%D0%97%D0%B0%D0%B1%D0%B5%D0%BB%D0%B5%D0%B6%D0%BA%D0%B0).
 
 #### Забележка ####
 
