@@ -17,7 +17,8 @@ int main()
     // Уравнението на окръжността е:
     // (x - ox)*(x - ox) + (y - oy)*(y - oy) = radius*radius, където (ox, oy)
     // е центърът на окръжността, който в момента е (0, 0). Следователно
-    // уравнението придобива вида: x*x + y*y = radius*radius.
+    // уравнението придобива вида: x*x + y*y = radius*radius. Ако искаме
+    // точката да е вътре - <, на контура - =, отвън - >.
     cout << boolalpha << (pointX*pointX + pointY*pointY <= radius*radius)
          << endl;
 
