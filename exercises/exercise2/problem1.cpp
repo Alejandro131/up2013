@@ -5,7 +5,8 @@ using namespace std;
 int main()
 {
     // Използваме unsigned int, защото изминалото време в секунди е положително
-    // число.
+    // число.  Тоест няма да са ни нужни отрицателни числа.
+
     unsigned int pastSeconds;
 
     cout << "Enter past seconds: ";
@@ -17,7 +18,7 @@ int main()
     hours %= 24;
     minutes %= 60;
 
-    cout.fill('0');  // Ако останат празни места от 'setw' ще бъдат запълнени с '0'
+    cout.fill('0');  // Ако останат празни места от 'setw' ще бъдат запълнени с '0'.
     cout << "\nThe time is " << setw(2) << hours << ":"
          << setw(2) << minutes << endl;
 
