@@ -9,7 +9,7 @@
 
 Припомнете си [закона на Де Морган](http://en.wikipedia.org/wiki/De_Morgan's_laws).
 
-Нека да проследим как се получава булевият израз ```outOfSemicircle```. Първо да построим израз ```inSemicircle```, който казва дали точка е вътре в полукръга. Вътре в полукръга означава включително прекъснатата дъга, но без черната отсечка IH. Тоест ```inSemicircle = (pointX*pointX + pointY*pointY <= 4 && pointX < 0)```. Сега ```outOfSemicircle``` е отрицанието на ```inSemicircle```. Следователно според закона на Де Морган: ```outOfSemicircle=(!(pointX*pointX + pointY*pointY <= 4) || !(pointX < 0)) = (pointX*pointX + pointY*pointY > 4 || pointX >=0)```. Другите булеви изрази се получават аналогично.
+Нека да проследим как се получава булевият израз ```outOfSemicircle```. Първо да построим израз ```inSemicircle```, който казва дали точка е вътре в полукръга. Вътре в полукръга означава включително прекъснатата дъга, но без черната отсечка IH. Тоест ```inSemicircle = (pointX*pointX + pointY*pointY <= 4 && pointX < 0)```. Сега ```outOfSemicircle``` е отрицанието на ```inSemicircle```. Следователно според закона на Де Морган: ```outOfSemicircle=(!(pointX*pointX + pointY*pointY <= 4) || !(pointX < 0))=(pointX*pointX + pointY*pointY > 4 || pointX >=0)```. Другите булеви изрази се получават аналогично.
 
 #### Примери ####
 
